@@ -10,6 +10,8 @@ const cluster = new aws.ecs.Cluster("cluster", {});
 // An ALB to serve the container endpoint to the internet.
 const loadbalancer = new awsx.lb.ApplicationLoadBalancer("loadbalancer", {});
 
+// Things.
+
 // An ECR repository to store our application's container image.
 const repo = new awsx.ecr.Repository("repo", {
     forceDelete: true,
