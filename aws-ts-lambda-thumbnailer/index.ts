@@ -3,6 +3,8 @@
 import * as aws from "@pulumi/aws";
 import * as awsx from "@pulumi/awsx";
 
+// Here's one.
+
 // A bucket to store videos and thumbnails.
 const bucket = new aws.s3.Bucket("bucket");
 
