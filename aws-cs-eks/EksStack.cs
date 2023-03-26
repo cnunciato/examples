@@ -11,7 +11,6 @@ using K8s = Pulumi.Kubernetes;
 using CoreV1 = Pulumi.Kubernetes.Core.V1;
 using AppsV1 = Pulumi.Kubernetes.Apps.V1;
 
-// Some comment.
 class EksStack : Stack
 {
     private Output<string> GenerateKubeconfig(Output<string> clusterEndpoint, Output<string> certData,
