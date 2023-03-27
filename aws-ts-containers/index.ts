@@ -7,7 +7,7 @@ import * as pulumi from "@pulumi/pulumi";
 // An ECS cluster to deploy into.
 const cluster = new aws.ecs.Cluster("cluster", {});
 
-// An ALB to serve the container endpoint to the internet.
+// An ALB to serve the container endpoint to the internet. asdkfasdfh
 const loadbalancer = new awsx.lb.ApplicationLoadBalancer("loadbalancer", {});
 
 // Things.

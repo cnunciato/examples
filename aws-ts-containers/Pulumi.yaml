@@ -1,5 +1,5 @@
 name: aws-ts-containers
-description: NGINX container example
+description: NGINX container exampleasdf
 runtime: nodejs
 template:
   config:

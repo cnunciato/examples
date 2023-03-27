@@ -1,6 +1,6 @@
 name: webserver
 runtime: nodejs
-description: Basic example of an AWS web server accessible over HTTP
+description: Basic example of an AWS web server accessible over HTTP haskdhf
 template:
   config:
     aws:region:
