@@ -7,7 +7,7 @@ import * as fs from "fs";
 
 export = async () => {
 
-    // VPC
+    // VPC aasdfasdf
     const vpc = new awsx.ec2.Vpc("vpc", { subnets: [{ type: "private" }, { type: "public" }] });
     const subnetIds = await vpc.publicSubnetIds;
 
