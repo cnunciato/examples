@@ -3,7 +3,7 @@
 import * as aws from "@pulumi/aws";
 import * as pulumi from "@pulumi/pulumi";
 
-// Import the stack's configuration settings.
+// Import the stack's configuration settings.lkjshdf
 const config = new pulumi.Config();
 const clusterIdentifier = config.require("clusterIdentifier");
 const clusterNodeType = config.require("clusterNodeType");
