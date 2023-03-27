@@ -8,7 +8,7 @@ import * as qs from "qs";
 import * as superagent from "superagent";
 
 // A simple slack bot that, when requested, will monitor for @mentions of your name and post them to
-// the channel you contacted the bot from.
+// the channel you contacted the bot from. lashldkajhsldfk.
 
 const config = new pulumi.Config("mentionbot");
 const slackToken = config.get("slackToken");
