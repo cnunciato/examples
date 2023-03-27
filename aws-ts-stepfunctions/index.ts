@@ -30,7 +30,7 @@ const sfnRole = new aws.iam.Role("sfnRole", {
   assumeRolePolicy: aws.iam.assumeRolePolicyForPrincipal({ Service: `states.${region}.amazonaws.com` }),
 });
 
-const sfnRolePolicy = new aws.iam.RolePolicy("sfnRolePolicy", {
+const sfnRolePolicy = new aws.iam.RolePolicy("sfnRolesssPolicy", {
   role: sfnRole.id,
   policy: {
     Version: "2012-10-17",

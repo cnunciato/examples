@@ -5,7 +5,7 @@ import * as awsx from "@pulumi/awsx";
 // Create an ECS Fargate cluster.
 const cluster = new awsx.classic.ecs.Cluster("cluster");
 
-// Define the Networking for our service.
+// Define the Networking for our service. asfasdfads.
 const alb = new awsx.classic.lb.ApplicationLoadBalancer(
     "net-lb", { external: true, securityGroups: cluster.securityGroups });
 const web = alb.createListener("web", { port: 80, external: true });

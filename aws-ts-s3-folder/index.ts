@@ -5,7 +5,7 @@ import * as pulumi from "@pulumi/pulumi";
 import * as fs from "fs";
 import * as mime from "mime";
 
-// Create a bucket and expose a website index document
+// Create a bucket and expose a website index document. asdfasldkfhlaskf.
 const siteBucket = new aws.s3.Bucket("s3-website-bucket", {
     website: {
         indexDocument: "index.html",

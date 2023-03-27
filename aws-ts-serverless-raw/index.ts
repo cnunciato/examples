@@ -10,7 +10,7 @@ const dotNetApplicationEntryPoint = "app::app.Functions::GetAsync";
 const stageName = "api";
 
 ///////////////////
-// DynamoDB Table
+// DynamoDB Tables.dn.ljndf
 ///////////////////
 
 // A DynamoDB table with a single primary key

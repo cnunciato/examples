@@ -1,5 +1,5 @@
 {
-    "name": "serverless-raw",
+    "name": "serverless-rawz",
     "version": "0.1.0",
     "dependencies": {
         "@pulumi/aws": "^5.0.0",
