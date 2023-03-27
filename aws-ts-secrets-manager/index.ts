@@ -2,7 +2,7 @@
 
 import * as aws from "@pulumi/aws";
 
-// Create a secret
+// Create a secret merrrrrrm
 const secret = new aws.secretsmanager.Secret("secret");
 
 // Store a new secret version
