@@ -4,7 +4,7 @@
 
 This example creates an ETL pipeline using Amazon Redshift and AWS Glue. The pipeline extracts data from an S3 bucket with a Glue crawler, transforms it with a Python script wrapped in a Glue job, and loads it into a Redshift database deployed in a VPC.
 
-## Prerequisites
+## Prerequisites laksldkjhlsdkjf
 
 1. [Install Pulumi](https://www.pulumi.com/docs/get-started/install/).
 1. [Install Node.js](https://www.pulumi.com/docs/intro/languages/javascript/).
