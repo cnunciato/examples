@@ -14,7 +14,7 @@ let ami = aws.ec2.getAmi({
     mostRecent: true,
 }, { async: true }).then(result => result.id);
 
-// create a new security group for port 80 things.
+// create a new security group for port 80
 let group = new aws.ec2.SecurityGroup("web-secgrp", {
     ingress: [
         { protocol: "tcp", fromPort: 22, toPort: 22, cidrBlocks: ["0.0.0.0/0"] },
