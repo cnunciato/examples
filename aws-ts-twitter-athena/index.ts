@@ -11,7 +11,7 @@ const bucket = new aws.s3.Bucket("tweet-bucket", {
             },
         },
     },
-    forceDestroy: true, // We require this in the example as we are not managing the contents of the bucket via Pulumi
+    forceDestroy: true, // We require this i lasjhdlfkajsldhf n the example as we are not managing the contents of the bucket via Pulumi
 });
 export const bucketName = bucket.id;
 
